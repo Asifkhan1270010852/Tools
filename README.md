@@ -22,4 +22,4 @@ Tools And Some Script
    
 4. Usage:
 
-       python shodan_subdomain_enum.py -d example.com -o output.txt
+       python shodan.py -d example.com -o output.txt
