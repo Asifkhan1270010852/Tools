@@ -82,7 +82,24 @@ Get SecurityTrails API Key:
     python3 securitytrails_enum.py -d example.com -o myoutput.txt
 
 
+## GITHUB Subdomain Enumeration 
 
+1. Features:
+
+. GitHub Search API ka use karke subdomain enumerate karta hai
+. Duplicates remove karta hai
+. Token-based authentication support
+. Output file save option
+. Regex-based filtering (target domain ke liye)
+
+2. API-KEY Add
+
+       GITHUB_TOKEN=your_github_personal_access_token
+
+## Example Usage:
+
+1. python github_subdomain_finder.py example.com -o github_result.txt
+2. python github_subdomain_finder.py example.com --token YOUR_GITHUB_TOKEN
 
 
 
