@@ -41,6 +41,7 @@ Install dependencies:
 Get your Censys API credentials:
 
 . CENSYS_API_ID
+
 . CENSYS_API_SECRET
 
 Save in a .env file:
