@@ -54,6 +54,32 @@ Save in a .env file:
     python3 censys_enum.py -d example.com -o output.txt
 
 
+## SecurityTrails
+
+ Tool Features:
+
+. SecurityTrails API use karta hai
+. Subdomains extract karta hai
+. Duplicate remove karta hai
+. Output file me save karta hai
+. API key .env file se leta hai
+
+
+2. Requirements:
+   
+. Install required libraries:
+
+    pip install requests python-dotenv
+
+Get SecurityTrails API Key:
+
+. Save it in a .env file:
+
+    ST_API_KEY=your_securitytrails_api_key_here
+
+. Usage: 
+
+    python3 securitytrails_enum.py -d example.com -o myoutput.txt
 
 
 
