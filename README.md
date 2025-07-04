@@ -98,8 +98,9 @@ Get SecurityTrails API Key:
 
 ## Example Usage:
 
-1. python github_subdomain_finder.py example.com -o github_result.txt
-2. python github_subdomain_finder.py example.com --token YOUR_GITHUB_TOKEN
+    python github_subdomain_finder.py example.com -o github_result.txt
+ 
+    python github_subdomain_finder.py example.com --token YOUR_GITHUB_TOKEN
 
 
 
