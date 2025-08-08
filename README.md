@@ -113,6 +113,10 @@ Get SecurityTrails API Key:
      python3 subdomain_dedupe_tool.py -i all_subs.txt -o unique.txt --normalize --strip-wildcard --sort
 
 
+## keyword_url_filter.py
+
+     python3 keyword_url_filter.py -i urls.txt -o result.txt -k amazon github shopify
+
 
 
 
