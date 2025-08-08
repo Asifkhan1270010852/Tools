@@ -104,6 +104,11 @@ Get SecurityTrails API Key:
 
 
 
+## CNAME Finder
+
+
+     python cname_targets.py subs.txt cname_list.txt
+
 
 
 
