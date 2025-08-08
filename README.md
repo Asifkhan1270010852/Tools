@@ -103,13 +103,14 @@ Get SecurityTrails API Key:
     python github_subdomain_finder.py example.com --token YOUR_GITHUB_TOKEN
 
 
-
 ## CNAME Finder
-
 
      python cname_targets.py subs.txt output.txt
 
 
+##  subdomain_dedupe_tool
+
+     python3 subdomain_dedupe_tool.py -i all_subs.txt -o unique.txt --normalize --strip-wildcard --sort
 
 
 
