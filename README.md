@@ -118,9 +118,12 @@ Get SecurityTrails API Key:
      python3 keyword_url_filter.py -i urls.txt -o result.txt -k amazon github shopify
 
 
-## azurefd_takeover_check.py
+## azurefd_checker.go
 
-    python3 azurefd_checker.py -l urls.txt --vuln-only
+    go build azurefd_checker.go
 
+    ./azurefd_checker -l urls.txt 
+    
+    ./azurefd_checker -l urls.txt --vuln-only
 
 
