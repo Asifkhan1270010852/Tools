@@ -118,6 +118,8 @@ Get SecurityTrails API Key:
      python3 keyword_url_filter.py -i urls.txt -o result.txt -k amazon github shopify
 
 
+## azurefd_takeover_check.py
 
+    python3 azurefd_takeover_check.py api-uat-partnerapp-hk.starbucks.com
 
 
