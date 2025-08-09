@@ -120,6 +120,7 @@ Get SecurityTrails API Key:
 
 ## azurefd_takeover_check.py
 
-    python3 azurefd_takeover_check.py api-uat-partnerapp-hk.starbucks.com
+    python3 azurefd_checker.py -l urls.txt --vuln-only
+
 
 
